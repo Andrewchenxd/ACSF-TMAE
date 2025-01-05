@@ -1,0 +1,12 @@
+einops==0.8.0
+matplotlib==3.7.4
+numba==0.58.1
+numpy==1.24.4
+opencv_python==4.9.0.80
+opencv_python_headless==4.9.0.80
+pyts==0.13.0
+PyWavelets==1.4.1
+scipy==1.15.0
+tftb==0.1.4
+torch==2.3.0+cu121
+tqdm==4.64.1
