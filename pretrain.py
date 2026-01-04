@@ -223,7 +223,7 @@ if __name__ == '__main__':
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     args = parser.parse_args()
     if args.trans_choose == "stft":
-        train_set = SigDataSet_stft('./data/adsb_test_data.mat'.format(args.dataset), newdata=args.newdata,
+        train_set = SigDataSet_stft('./data/adsb_train_data.mat'.format(args.dataset), newdata=args.newdata,
                                     adsbis=args.adsbis,
                                     resample_is=args.resample, samplenum=args.samplenum, resize_is=True,
                                     norm='maxmin',
